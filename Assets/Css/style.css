@@ -14,7 +14,7 @@ menu {
 
 }
 .menu-categorias {
-    padding: 0 2rem;
+    padding: 0.5rem 2rem;
 
     & p {
         line-height: 0.7rem;
