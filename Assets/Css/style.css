@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    grid-area: header;
+    background-color: #66f;
+}
+
+menu {
+    grid-area: menu;
+    background-color: #66f;
+    padding-left: 0;
+    margin-left: 0;
+
+}
+.menu-categorias {
+    padding: 1rem 2rem;
+
+    & p {
+        line-height: 5px;
+    }
+}
+span {
+    color: grey;
+}
+
+main {
+    grid-area: main;
+    background-color: #66f;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #66f;
+}
+.grid-container {
+    gap: 10px;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "menu main"
+    "footer footer"
+}
+.text-center {
+    text-align: center;
+    margin-bottom: 0;
+}
+.card-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.card-body:first-child {
+    margin-bottom: 0;
+}
+ .card {
+    margin: 0.2rem;
+ }   
