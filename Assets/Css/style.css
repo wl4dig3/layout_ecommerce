@@ -82,4 +82,15 @@ footer {
     color: azure;
  }
 
+ @media (max-width: 576px) {
+    main {
+        background-color: cornflowerblue;
+    }
+ }
+ @media (min-width: 576px) {
+    body {
+        background-color: rgb(196, 236, 224);
+    }
+ }
+
  
