@@ -9,16 +9,15 @@ header {
 
 menu {
     grid-area: menu;
-    background-color: #66f;
     padding-left: 0;
     margin-left: 0;
 
 }
 .menu-categorias {
-    padding: 1rem 2rem;
+    padding: 0 2rem;
 
     & p {
-        line-height: 5px;
+        line-height: 0.7rem;
     }
 }
 span {
@@ -27,7 +26,6 @@ span {
 
 main {
     grid-area: main;
-    background-color: #66f;
 }
 
 footer {
@@ -49,11 +47,39 @@ footer {
 .card-items {
     display: flex;
     flex-wrap: wrap;
-    padding: 5px;
+    /* justify-content: center; */
+    padding: 15px;
+    margin-top: 0.5rem;
+    
 }
+
 .card-body:first-child {
     margin-bottom: 0;
+} 
+.card-body {
+    padding-left: 0 !important;
+    padding-right: 0 !important; 
 }
  .card {
     margin: 0.2rem;
- }   
+    width: calc(24% + 80px) !important;
+    margin-right: 1rem;
+ }  
+ .gray {
+    color: rgb(184, 180, 180);
+ }
+ .grey {
+    color: gray;
+ }
+  
+ .altura {
+    min-height: 3rem;
+ }
+ .flex-items-menu {
+    display: flex;
+ }
+ .text-white {
+    color: azure;
+ }
+
+ 
